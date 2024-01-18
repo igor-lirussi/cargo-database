@@ -1,45 +1,33 @@
-# TemplateRepository
-**Brief description here, like in the about**
+# Cargo Database
+**Software for Database management of a logistics company**
 ## Description 
-A repository used as a base, not to write all over again. 
+The Cargo Management Database is a comprehensive software solution designed to streamline and optimize the management of a fleet of trucks for businesses involved in transportation and logistics. This database program provides a centralized platform for tracking, monitoring, and analyzing various aspects of a truck fleet, like repairs, movements, product shipped. It enhances operational efficiency, reduces costs, and ensures compliance with regulations.
 
-1. Generate a new repo with this one as a template
-2. Add **Description**
-3. Add **Tags**
-4. Add **.gitignore** (Add file-> Create New File -> Type ".gitignore" -> Choose .gitignore -> Commit)
-5. Review **Licence** (Add file-> Create New File -> Type "LICENCE" -> Choose a licence template -> Review and submit)
-6. Change **image result** in /img/result.jpg
-7. Change **image social preview** in settings 
-8. Edit this **README**
-9. Optionally add the **_config.yml** and activate github pages
 
 ### Topics:
-- Repository 
-- Template
-- Code Automation
+- Database 
+- Website
+- Transportation
 
 ## Result
 ![Result](./img/result.jpg)
 
 ## Requirements & Dependencies
-- Programming Language
-- Libraries
+- SQL
+- Website hosting
 
 ## Install 
 *   clone in the route directory
-*   ```./install.sh```
+*   host on a platform and connect to a database (es Altervista has everything integrated)
 
-## Run
-```bash
-execution command
-```
 
 ## Useful Resources & Extra
 - Links
 - Resources
 
 ## Authors
-* **Igor Lirussi** @ BOUN Boğaziçi University - CoLoRs (Cognitive Learning and Robotics) Lab
+* **Igor Lirussi** @ Bologna University
+* **Sofia Gattucci** @ Bologna University
 
 ## Acknowledgments
 *   All the people that contributed with suggestions and tips.

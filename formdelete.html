@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="cargo.css">
+    <title> CARGO software </title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <img src="cam2.png" alt="image not found" width=400 height=250> 
+        <img src="logo.png" alt="image not found" width=550 height=250>  
+      </div>
+
+      <div id="menu">
+        <style> a:link    {text-decoration: none; color: black;}
+        a:visited {text-decoration: none; color: blue;}
+        a:hover   {color: red;} 
+       </style>
+       <center>
+        <h1> Cancellazione Risorse </h1>
+    <p>Clicca per cancellare i dati della tabella indicata: riceverai la conferma della cancellazione</p>
+    <form method=Get action=delete.php>
+    Codice merce: <input type='number' name="merce"> <input type='submit' name="tabella" value="Merce">
+                  <input type='submit' name="tabella" value="Cancella tutta la tabella Merce"></br></br>
+    Codice Fiscale autista: <input type='text' name="autista"> <input type='submit' name="tabella" value="Autista">
+                            <input type='submit' name="tabella" value="Cancella tutta la tabella Autista"></br></br>
+    Targa camion: <input type='text' name="camoin"> <input type='submit' name="tabella" value="Camion">
+                  <input type='submit' name="tabella" value="Cancella tutta la tabella Camion"></br></br>
+    Codice movimentazione:  <input type='number' name="movimentazioni"> <input type='submit' name="tabella" value="Movimentazioni">
+                            <input type='submit' name="tabella" value="Cancella tutta la tabella Movimentazioni"></br></br>
+    Codice Fiscale magazziniere:  <input type='text' name="magazziniere"> <input type='submit' name="tabella" value="Magazziniere">
+                                  <input type='submit' name="tabella" value="Cancella tutta la tabella Magazziniere"></br></br>
+    Codice deposito:  <input type='number' name="depostio"> <input type='submit' name="tabella" value="Deposito">
+                      <input type='submit' name="tabella" value="Cancella tutta la tabella Deposito"></br></br>
+    Codice Fiscale meccanico: <input type='text' name="meccanico"> <input type='submit' name="tabella" value="Meccanico">
+                              <input type='submit' name="tabella" value="Cancella tutta la tabella Meccanico"></br></br>
+    Tipo Riparazione: <input type='text' name="tipo">
+    Data Riparazione: <input type='date' name="data"> <input type='submit' name="tabella" value="Riparazione">
+                      <input type='submit' name="tabella" value="Cancella tutta la tabella Riparazione"></br></br>
+    Nome Commerciale officina:  <input type='text' name="officina"> <input type='submit' name="tabella" value="Officina">
+                                <input type='submit' name="tabella" value="Cancella tutta la tabella Officina"></br></br>
+    </form></center>  
+    <br>
+      <a href="cargostyle.html"> ← Torna al Menù </a> <br>
+       <br>     
+       <a href="paginaInserimenti.html"> ↑ Passa all'inserimento </a> <br>
+      </div>
+
+      <div id="content2">
+      
+      </div>
+      <div id="footer">
+        <p> MSG© software </p>
+      </div>
+    </div>
+  </body>
+</html>

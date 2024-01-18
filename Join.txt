@@ -1,0 +1,2 @@
+
+Autista JOIN Camion ON Autista.idAutista=Camion.Autista_idAutista JOIN Movimentazioni ON Camion.Targa=Movimentazioni.Targa JOIN Magazziniere ON Movimentazioni.idMagazziniere=Magazziniere.idMagazziniere JOIN Ordina ON Movimentazioni.idMov=Ordina.Movimentazioni_idMov JOIN Merce ON Ordina.Merce_idMerce=Merce.idMerce JOIN Deposito ON Merce.Deposito_idDeposito=Deposito.idDeposito

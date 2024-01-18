@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="cargo.css">
+    <title> CARGO software </title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <img src="cam2.png" alt="image not found" width=400 height=250>
+        <img src="logo.png" alt="image not found" width=550 height=250>
+       
+      </div>
+
+      <div id="menu">
+     <style> a:link    {text-decoration: none; color: black;}
+        a:visited {text-decoration: none; color: blue;}
+        a:hover   {color: red;} 
+       </style>
+       <h1> Nuova Movimentazione </h1>
+    <p>Inserisci tutti i dati e e clicca il pulsante per ricevere la conferma dell'inserimento</p>
+    <form method=Get action=GDI_Mov.php>
+    Codice della Movimentazione:<input type='number' name="codM"></br></br>
+    Tipo movimentazione:</br>
+    <input type='radio' name="tipo" value="Carico">Carico   
+    <input type='radio' name="tipo" value="Scarico">Scarico
+    </br></br>
+    Data:<input type='date' name="data"></br></br>
+    Codice fiscale del magazziniere:<input type='text' name="cfM"></br></br>
+    Codice Deposito:<input type='number' name="codDep"></br></br>
+    Targa del camion:<input type='text' name="targa"></br></br>
+    <input type='submit' value="Vai alla conferma"></br>
+    </form>
+     <br>  
+      <a href="cargostyle.html"> ← ← Torna al Menù </a> <br>
+
+      <a href="paginaInserimenti.html"> ← Torna all'inserimento </a> <br>
+      </div>
+
+      <div id="content2">
+      
+      </div>
+      <div id="footer">
+        <p> SMG software </p>
+      </div>
+    </div>
+  </body>
+</html>
